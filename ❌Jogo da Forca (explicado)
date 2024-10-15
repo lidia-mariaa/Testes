@@ -41,7 +41,7 @@ while True:
             print(f"As letras erradas foram: {l_e}")
         print(l, i, d)
     
-    #ilif para se a letra que o usuário chutar for "i"
+    #elif para se a letra que o usuário chutar for "i"
     elif x == "i":
         i = ""
         i += "i"
@@ -52,7 +52,7 @@ while True:
             print(f"As letras erradas foram: {l_e}")
         print(l, i, d)
     
-    #ilif para se a letra que o usuário chutar for "d"
+    #elif para se a letra que o usuário chutar for "d"
     elif x == "d":
         d = ""
         d += "d"
