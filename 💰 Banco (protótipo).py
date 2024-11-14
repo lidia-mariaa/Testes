@@ -10,9 +10,7 @@ while True:
         if oque_quer == "b":
             senha_nv = input("Informe a nova senha: ")
             senha = ""
-            print (senha)
             senha += senha_nv
-            print(senha)
     else:
         print("\nSenha e usuário correto!")
         break
