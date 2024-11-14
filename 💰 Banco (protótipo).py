@@ -1,3 +1,5 @@
+print("_"*25,"\nBanco do If")
+print("_"*25)
 senha = "12345"
 usuario = "lidia"
 
@@ -11,6 +13,7 @@ while True:
             senha_nv = input("Informe a nova senha: ")
             senha = ""
             senha += senha_nv
+            print(f"Sua nova senha é {senha}")
     else:
         print("\nSenha e usuário correto!")
         break
