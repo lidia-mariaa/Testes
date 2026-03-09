@@ -1,3 +1,6 @@
+#PLANO CARTESIANO
+
+#INÍCIO
 def espaços():
     print("-"*50)
 
@@ -41,9 +44,11 @@ while True:
     #DISTÂNCIA ENTRE OS PONTOS
     distancia = ((abscissa_A - abscissa_B)**2 + (ordenada_A - ordenada_B)**2)**0.5
     
+    #EXIBINDO INFORMAÇÕES
     print(f"\n{nome}, o ponto A({abscissa_A},{ordenada_A}) está no {quadrante_A} quadrante, e o ponto B({abscissa_B},{ordenada_B}) está no {quadrante_B} quadrante!")
     print(f"E a distância entre esses ponto é: {distancia}")
 
+    #REINICIAR OU NÃO?
     reiniciar = input("\nOque você gostaria de fazer agora?\na)Sair\nb)Reiniciar\n")
 
     if reiniciar == "a" or reiniciar == "A":
