@@ -23,29 +23,33 @@ while True:
     
     #QUADRANTE A
     if abscissa_A > 0 and ordenada_A > 0:
-        quadrante_A = "1º"
+        quadrante_A = "1"
     elif abscissa_A < 0 and ordenada_A > 0:
-        quadrante_A = "2º"
+        quadrante_A = "2"
     elif abscissa_A < 0 and ordenada_A < 0:
-        quadrante_A = "3º"
+        quadrante_A = "3"
     elif abscissa_A > 0 and ordenada_A < 0:
-        quadrante_A = "4º"
+        quadrante_A = "4"
+    else:
+        quadrante_A = "origem"
 
     #QUADRANTE B
     if abscissa_B > 0 and ordenada_B > 0:
-        quadrante_B = "1º"
+        quadrante_B = "1"
     elif abscissa_B < 0 and ordenada_B > 0:
-        quadrante_B = "2º"
+        quadrante_B = "2"
     elif abscissa_B < 0 and ordenada_B < 0:
-        quadrante_B = "3º"
+        quadrante_B = "3"
     elif abscissa_B > 0 and ordenada_B < 0:
-        quadrante_B = "4º"
+        quadrante_B = "4"
+    else:
+        quadrante_B = "origem"
         
     #DISTÂNCIA ENTRE OS PONTOS
     distancia = ((abscissa_A - abscissa_B)**2 + (ordenada_A - ordenada_B)**2)**0.5
     
     #EXIBINDO INFORMAÇÕES
-    print(f"\n{nome}, o ponto A({abscissa_A},{ordenada_A}) está no {quadrante_A} quadrante, e o ponto B({abscissa_B},{ordenada_B}) está no {quadrante_B} quadrante!")
+    print(f"\n{nome}, o ponto A({abscissa_A},{ordenada_A}) está no quadrante {quadrante_A}, e o ponto B({abscissa_B},{ordenada_B}) está no quadrante {quadrante_B}!")
     print(f"E a distância entre esses ponto é: {distancia}")
 
     #REINICIAR OU NÃO?
